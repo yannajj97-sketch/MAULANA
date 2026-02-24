@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omega Singularity Global Holding</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+html{scroll-behavior:smooth;}
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:'Montserrat',sans-serif;
+background:#0b0b0b;
+color:#eee;
+overflow-x:hidden;
+}
+
+/* GOLD ACCENT */
+.gold{color:#d4af37;}
+.section{
+padding:120px 60px;
+opacity:0;
+transform:translateY(40px);
+transition:1s ease;
+}
+.section.active{
+opacity:1;
+transform:translateY(0);
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 60px;
+position:fixed;
+width:100%;
+background:rgba(0,0,0,0.9);
+border-bottom:1px solid #222;
+z-index:1000;
+}
+header h1{
+font-family:'Playfair Display',serif;
+color:#d4af37;
+letter-spacing:3px;
+font-size:20px;
+}
+nav a{
+color:#eee;
+text-decoration:none;
+margin-left:25px;
+transition:0.3s;
+}
+nav a:hover{color:#d4af37;}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:0 20px;
+}
+.hero h2{
+font-family:'Playfair Display',serif;
+font-size:55px;
+color:#d4af37;
+}
+.hero p{
+margin-top:20px;
+max-width:800px;
+margin:auto;
+color:#bbb;
+font-size:18px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:40px;
+}
+
+.card{
+background:#111;
+padding:40px;
+border:1px solid #222;
+transition:0.4s;
+}
+.card:hover{
+border:1px solid #d4af37;
+transform:translateY(-10px);
+box-shadow:0 0 25px rgba(212,175,55,0.2);
+}
+.card h3{
+color:#d4af37;
+margin-bottom:15px;
+}
+
+footer{
+text-align:center;
+padding:40px;
+border-top:1px solid #222;
+background:#000;
+font-size:14px;
+}
+
+@media(max-width:768px){
+header{padding:20px;}
+.section{padding:100px 25px;}
+.hero h2{font-size:38px;}
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>OMEGA SINGULARITY GLOBAL HOLDING</h1>
+<nav>
+<a href="#about">About</a>
+<a href="#subsidiary">Subsidiaries</a>
+<a href="#investor">Investor</a>
+<a href="#media">Media</a>
+<a href="#legal">Legal</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h2>Global Holding Powerhouse</h2>
+<p>
+Omega Singularity Global Holding adalah perusahaan induk internasional
+yang menaungi berbagai entitas teknologi, investasi, dan inovasi digital
+dengan standar global elite.
+</p>
+</div>
+</section>
+
+<section class="section" id="about">
+<h2 class="gold" style="text-align:center;">Corporate Overview</h2>
+<p style="max-width:900px;margin:auto;text-align:center;color:#bbb;">
+Didirikan dengan visi ekspansi global, Omega Singularity Global Holding
+memimpin transformasi teknologi melalui anak perusahaan strategis,
+kemitraan internasional, dan investasi digital bernilai tinggi.
+</p>
+</section>
+
+<section class="section" id="subsidiary">
+<h2 class="gold" style="text-align:center;">Subsidiary Companies</h2>
+<div class="grid">
+<div class="card">
+<h3>Omega Digital Systems</h3>
+<p>Enterprise software & AI development division.</p>
+</div>
+<div class="card">
+<h3>Omega Capital Investment</h3>
+<p>Global asset & technology investment management.</p>
+</div>
+<div class="card">
+<h3>Omega Innovation Labs</h3>
+<p>Advanced research & digital transformation unit.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="investor">
+<h2 class="gold" style="text-align:center;">Investor Relations</h2>
+<div class="card" style="max-width:800px;margin:auto;text-align:center;">
+<p>Annual Revenue Growth: +38%</p>
+<p>Global Partnerships: 24 Countries</p>
+<p>Strategic Expansion Plan: Asia-Pacific & Europe</p>
+<p style="margin-top:20px;color:#bbb;">
+For investor inquiries: investor@omegasingularity.co.id
+</p>
+</div>
+</section>
+
+<section class="section" id="media">
+<h2 class="gold" style="text-align:center;">Media & Press</h2>
+<div class="grid">
+<div class="card">
+<h3>2026 Global Expansion Announcement</h3>
+<p>Omega Singularity expands into international markets.</p>
+</div>
+<div class="card">
+<h3>AI Innovation Summit</h3>
+<p>Leading breakthrough AI integration for enterprises.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="legal">
+<h2 class="gold" style="text-align:center;">Legal & Compliance</h2>
+<p style="max-width:900px;margin:auto;text-align:center;color:#bbb;">
+Omega Singularity Global Holding beroperasi sesuai standar regulasi
+internasional dan prinsip tata kelola perusahaan yang transparan.
+</p>
+</section>
+
+<section class="section" id="contact">
+<h2 class="gold" style="text-align:center;">Global Contact</h2>
+<div class="card" style="max-width:600px;margin:auto;text-align:center;">
+<p>Email: info@omegasingularity.co.id</p>
+<p>Investor: investor@omegasingularity.co.id</p>
+<p>Phone: 08895989643</p>
+<p>Head Office: Indonesia</p>
+<p style="margin-top:20px;">
+CEO: <span class="gold">MAULANA AR ROSYID</span>
+</p>
+</div>
+</section>
+
+<footer>
+© 2026 Omega Singularity Global Holding — International Corporate Structure
+</footer>
+
+<script>
+const sections = document.querySelectorAll('.section');
+window.addEventListener('scroll', ()=>{
+sections.forEach(sec=>{
+const offset = sec.offsetTop - 600;
+if(window.scrollY > offset){
+sec.classList.add('active');
+}
+});
+});
+</script>
+
+</body>
+</html>
